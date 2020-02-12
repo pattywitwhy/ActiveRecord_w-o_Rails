@@ -31,14 +31,3 @@ end
 class Book < ApplicationRecord
   belongs_to :authors
 end
-
-
-
-# irb -r "./filename.rb"
-
-#OR
-
-#load ./filename.rb
-
-
-# https://blog.teamtreehouse.com/active-record-without-rails-app
