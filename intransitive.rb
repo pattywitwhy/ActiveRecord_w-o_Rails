@@ -11,8 +11,8 @@ ActiveRecord::Base.establish_connection(
 ActiveRecord::Schema.define do
   create_table :authors, force: true do |t|
     t.string :name
-
   end
+  
   create_table :books, force: true do |t|
     t.string :title
     t.references :author
